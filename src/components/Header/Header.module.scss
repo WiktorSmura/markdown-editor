@@ -1,9 +1,15 @@
-header {
-  background-color: grey;
+@use "../../utils/colors.scss";
+
+.appHeader {
+  background-color: colors.$dark-grey;
   color: white;
+  display: flex;
+  align-items: center;
+  height: 10vh;
 
   h1 {
-    margin: 2rem;
+    margin: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 5px;
   }
 }

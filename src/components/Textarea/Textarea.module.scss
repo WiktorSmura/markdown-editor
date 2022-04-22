@@ -1,0 +1,16 @@
+@use "../../utils/colors.scss";
+
+.textEditor {
+  resize: none;
+  overflow: auto;
+  outline: none;
+  border: none;
+  margin: 0;
+  height: 90vh;
+  width: 50vw;
+  background-color: colors.$black;
+  color: colors.$white;
+  border-right: 1px solid colors.$white;
+  padding: 2rem;
+  font-size: 1rem;
+}

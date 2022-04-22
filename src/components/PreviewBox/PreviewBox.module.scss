@@ -1,0 +1,26 @@
+@use "../../utils/colors.scss";
+
+.previewBox {
+  width: 50vw;
+  height: 90vh;
+  overflow: auto;
+  white-space: pre-wrap;
+  background-color: colors.$black;
+  color: colors.$white;
+  padding: 2rem;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: colors.$dark-yellow;
+  }
+
+  blockquote {
+    border-left: 5px solid colors.$dark-yellow;
+    padding: 0.5rem;
+    background-color: colors.$dark-grey;
+  }
+}
