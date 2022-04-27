@@ -1,0 +1,15 @@
+@use "../../utils/colors.scss";
+
+.appHeader {
+  background-color: colors.$light-grey;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+
+  h1 {
+    margin: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+  }
+}
