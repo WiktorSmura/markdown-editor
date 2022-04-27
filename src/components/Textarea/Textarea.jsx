@@ -1,13 +1,17 @@
 import React from "react";
 import styles from "./Textarea.module.scss";
+import Description from "../Description/Description";
 
 function textarea({ value, onChange }) {
   return (
-    <textarea
-      className={styles.textEditor}
-      value={value}
-      onChange={onChange}
-    ></textarea>
+    <div className={styles.container}>
+      <Description text={"markdown"} />
+      <textarea
+        className={styles.textEditor}
+        value={value}
+        onChange={onChange}
+      />
+    </div>
   );
 }
 

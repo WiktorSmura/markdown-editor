@@ -1,17 +1,22 @@
 @use "../../utils/colors.scss";
 
+.container {
+  height: 86vh;
+  border-right: 1px solid colors.$white;
+  width: 100%;
+}
+
 .textEditor {
   resize: none;
   overflow: auto;
   outline: none;
   border: none;
   margin: 0;
-  height: 90vh;
   min-width: 50vw;
+  height: 100%;
   width: 100%;
   background-color: colors.$black;
   color: colors.$white;
-  border-right: 1px solid colors.$white;
   padding: 2rem;
   font-size: 1rem;
 }
