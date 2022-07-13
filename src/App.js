@@ -10,7 +10,7 @@ function App() {
   const { showPreview, markdown, setMarkdown } = useAppContext();
 
   return (
-    <div className="App">
+    <div className="App" data-testid="app">
       <Header title="markdown" />
       <div className={styles.editorBox}>
         <Textarea

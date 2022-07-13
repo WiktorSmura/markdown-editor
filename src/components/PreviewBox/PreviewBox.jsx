@@ -4,7 +4,7 @@ import Description from "../Description/Description";
 
 function PreviewBox({ dangerouslySetInnerHTML }) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid="preview-box">
       <Description text="preview" />
       <div
         className={styles.previewBox}
