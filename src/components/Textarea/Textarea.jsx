@@ -7,6 +7,7 @@ function textarea({ value, onChange }) {
     <div className={styles.container}>
       <Description text={"markdown"} />
       <textarea
+        placeholder="your amazing markdown"
         className={styles.textEditor}
         value={value}
         onChange={onChange}
